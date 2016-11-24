@@ -33,13 +33,13 @@
 
 		levels: 2,
 
-		expandIcon: 'glyphicon glyphicon-plus',
-		collapseIcon: 'glyphicon glyphicon-minus',
-		emptyIcon: 'glyphicon',
+		expandIcon: 'fa-plus',
+		collapseIcon: 'fa-minus',
+		emptyIcon: 'fa',
 		nodeIcon: '',
 		selectedIcon: '',
-		checkedIcon: 'glyphicon glyphicon-check',
-		uncheckedIcon: 'glyphicon glyphicon-unchecked',
+		checkedIcon: 'fa-check',
+		uncheckedIcon: 'fa-unchecked',
 
 		color: undefined, // '#000000',
 		backColor: undefined, // '#FFFFFF',
@@ -690,7 +690,7 @@
 		list: '<ul class="list-group"></ul>',
 		item: '<li class="list-group-item"></li>',
 		indent: '<span class="indent"></span>',
-		icon: '<span class="icon"></span>',
+		icon: '<i class="fa"></i> ',
 		link: '<a href="#" style="color:inherit;"></a>',
 		badge: '<span class="badge"></span>'
 	};
